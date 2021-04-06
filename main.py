@@ -38,9 +38,9 @@ def jarvisTalk(txt):
     print(txt)
     myobj = gTTS(text=txt, lang='pt-BR', slow=False)
 
-    myobj.save('jarvisCorno.mp3')
+    myobj.save('jarvisAmigao.mp3')
 
-    os.system('start jarvisCorno.mp3')
+    os.system('start jarvisAmigao.mp3')
 
 
 def wakeWords(txt):
