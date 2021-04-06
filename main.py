@@ -44,7 +44,7 @@ def jarvisTalk(txt):
 
 
 def wakeWords(txt):
-    WAKER_WORDS = ['Flamengo ola', 'Oi Flamengo', 'Sucumba Gabi']
+    WAKER_WORDS = ['Flamengo ola', 'Oi Flamengo', 'Gabigol Amigo']
 
     txt = txt.lower()
 
